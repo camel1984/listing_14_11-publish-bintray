@@ -10,6 +10,14 @@ gradle publishToMavenLocal
 
 gradle publishMavenPublicationToMyLocalRepository
 
+
+bintray:
+
+https://bintray.com/wangshuaijie
+
+bobwa1984@gmail.com/wangshuaijie
+wsj+ previous passwords
+
 ------------------------------------------------------------
 Gradle 5.1
 ------------------------------------------------------------
