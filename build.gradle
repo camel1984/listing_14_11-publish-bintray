@@ -9,8 +9,8 @@ plugins {
 }
 apply plugin: 'groovy'
 
-archivesBaseName = 'cloudbees-plugin'
-group = 'com.manning.gia'
+archivesBaseName = 'camel-plugin'
+group = 'org.camel.test'
 version = '1.0'
 
 repositories {
@@ -77,8 +77,8 @@ publishing {
         maven(MavenPublication) {
             from components.java
 
-            groupId 'com.manning.gia'
-            artifactId 'cloudbees-plugin'
+            groupId 'org.camel.test'
+            artifactId 'camel-plugin'
             version '0.1'
             artifact sourcesJar
             artifact groovydocJar
@@ -124,7 +124,7 @@ bintray {
 
     pkg {
         repo = 'test'
-        name = 'cloudbees-plugin'
+        name = 'camel-plugin'
         userOrg = 'wsjorg'
         licenses = ['Apache-2.0']
         vcsUrl = 'https://github.com/camel1984/listing_14_11-publish-bintray.git'
